@@ -55,7 +55,7 @@
 const money=n=>'¥'+Math.round(Number(n||0)).toLocaleString('zh-CN'),pct=n=>n==null?'—':(n*100).toFixed(1)+'%',esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const list=x=>x?.map(v=>esc(v.name)).join('、')||'—',status=n=>n==null?'':n>1?'high':n>=.8?'mid':'low',td=(v,c='')=>`<td class="${c}">${v}</td>`;
 const table=(heads,rows)=>`<div class="table-wrap"><table><thead><tr>${heads.map(h=>`<th class="${h[1]||''}">${h[0]}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
-fetch('./data.json').then(r=>r.json()).then(DATA=>{
+fetch('./data.json?v=leadership-20260723').then(r=>r.json()).then(DATA=>{
  const S=DATA.summary,P=DATA.people,M=DATA.monthly,G=DATA.groups;
  generatedAt.textContent=DATA.generatedAt;peopleBadge.textContent=`${S.expensePeople}名有费用人员 / ${S.people}名额度人员`;
  const k=[['累计差旅净花费',money(S.spent),'机票、火车、酒店',''],['部门额度使用率',pct(S.usage),'总额仍在额度内','green'],['个人超额合计',money(S.overrunTotal),S.overPeople+' 人已超额','red'],['个人闲置额度',money(S.unusedTotal),'额度分配存在错配','blue'],['费用集中度',pct(S.top5Share),'前5人费用占比','red'],['预警 / 超额人数',S.warningPeople+'人','其中超额 '+S.overPeople+' 人','red'],['正金额消费记录',S.records+'条','不等同于出差次数','blue'],['出行覆盖城市',S.cities+'个','不代表交付结果','blue']];

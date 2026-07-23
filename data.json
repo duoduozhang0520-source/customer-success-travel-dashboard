@@ -16,6 +16,7 @@
     "records": 1167,
     "cities": 44,
     "warningPeople": 13,
+    "nearPeople": 5,
     "overPeople": 7,
     "overrunTotal": 43815.32,
     "unusedTotal": 89270.16,
@@ -94,7 +95,9 @@
       "remaining": 13173.32,
       "records": 4,
       "cities": 2,
-      "warningPeople": 0
+      "warningPeople": 0,
+      "overPeople": 0,
+      "nearPeople": 0
     },
     {
       "group": "客户成功2组",
@@ -106,7 +109,9 @@
       "remaining": 1710.34,
       "records": 46,
       "cities": 6,
-      "warningPeople": 2
+      "warningPeople": 2,
+      "overPeople": 2,
+      "nearPeople": 0
     },
     {
       "group": "客户成功3组",
@@ -118,7 +123,9 @@
       "remaining": 13206.62,
       "records": 83,
       "cities": 12,
-      "warningPeople": 1
+      "warningPeople": 1,
+      "overPeople": 0,
+      "nearPeople": 0
     },
     {
       "group": "部门直属",
@@ -130,7 +137,9 @@
       "remaining": 17364.56,
       "records": 1034,
       "cities": 41,
-      "warningPeople": 10
+      "warningPeople": 10,
+      "overPeople": 5,
+      "nearPeople": 5
     }
   ],
   "people": [
@@ -240,7 +249,7 @@
         }
       ],
       "labels": [
-        "累计额度预警",
+        "接近个人限制额度",
         "退款/退票记录较多",
         "出行城市较多"
       ],
@@ -654,7 +663,7 @@
         }
       ],
       "labels": [
-        "累计额度超额"
+        "超过个人限制额度"
       ],
       "riskScore": 5,
       "peerMedian": 6594.0,
@@ -870,7 +879,7 @@
         }
       ],
       "labels": [
-        "累计额度预警",
+        "接近个人限制额度",
         "出行城市较多"
       ],
       "riskScore": 4,
@@ -983,7 +992,7 @@
         }
       ],
       "labels": [
-        "累计额度预警",
+        "接近个人限制额度",
         "退款/退票记录较多",
         "出行城市较多"
       ],
@@ -1097,7 +1106,7 @@
         }
       ],
       "labels": [
-        "累计额度超额",
+        "超过个人限制额度",
         "高于同组中位数",
         "退款/退票记录较多",
         "出行城市较多"
@@ -1508,7 +1517,7 @@
         }
       ],
       "labels": [
-        "累计额度预警",
+        "接近个人限制额度",
         "出行城市较多"
       ],
       "riskScore": 4,
@@ -1989,7 +1998,7 @@
         }
       ],
       "labels": [
-        "累计额度超额",
+        "超过个人限制额度",
         "高于同组中位数",
         "退款/退票记录较多",
         "出行城市较多"
@@ -2208,7 +2217,7 @@
         }
       ],
       "labels": [
-        "累计额度超额",
+        "超过个人限制额度",
         "高于同组中位数",
         "退款/退票记录较多",
         "出行城市较多"
@@ -2323,7 +2332,7 @@
         }
       ],
       "labels": [
-        "累计额度超额",
+        "超过个人限制额度",
         "退款/退票记录较多",
         "出行城市较多"
       ],
@@ -2433,7 +2442,7 @@
         }
       ],
       "labels": [
-        "累计额度超额"
+        "超过个人限制额度"
       ],
       "riskScore": 5,
       "peerMedian": 6594.0,
@@ -2537,7 +2546,7 @@
         }
       ],
       "labels": [
-        "累计额度预警"
+        "接近个人限制额度"
       ],
       "riskScore": 3,
       "peerMedian": 13327.48,
@@ -2749,7 +2758,7 @@
         }
       ],
       "labels": [
-        "累计额度超额",
+        "超过个人限制额度",
         "高于同组中位数",
         "出行城市较多"
       ],

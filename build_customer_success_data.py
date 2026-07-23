@@ -153,10 +153,10 @@ for person in people:
         labels.append("有费用但未匹配额度")
         score += 6
     elif person["usage"] is not None and person["usage"] > 1:
-        labels.append("累计额度超额")
+        labels.append("超过个人限制额度")
         score += 5
     elif person["usage"] is not None and person["usage"] >= 0.8:
-        labels.append("累计额度预警")
+        labels.append("接近个人限制额度")
         score += 3
 
     june = person["monthly"][-1]["spent"]
@@ -227,6 +227,14 @@ for group in sorted({person["group"] for person in people}):
                 }
             ),
             "warningPeople": sum(person["riskScore"] >= 3 for person in members),
+            "overPeople": sum(
+                person["usage"] is not None and person["usage"] > 1
+                for person in members
+            ),
+            "nearPeople": sum(
+                person["usage"] is not None and 0.8 <= person["usage"] <= 1
+                for person in members
+            ),
         }
     )
 
@@ -263,6 +271,10 @@ data = {
         "records": sum(person["records"] for person in people),
         "cities": len(all_cities),
         "warningPeople": sum(person["riskScore"] >= 3 for person in people),
+        "nearPeople": sum(
+            person["usage"] is not None and 0.8 <= person["usage"] <= 1
+            for person in people
+        ),
         "overPeople": sum(
             person["usage"] is not None and person["usage"] > 1
             for person in people

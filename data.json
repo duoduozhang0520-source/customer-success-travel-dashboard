@@ -1,0 +1,2870 @@
+{
+  "generatedAt": "2026-07-23",
+  "period": "2026年1–6月",
+  "notes": {
+    "expense": "企业支付净额，包含退款、退票等负向冲减",
+    "quota": "1–4月使用月度额度；5–6月按5–7月季度额度÷3折算月均额度",
+    "coverage": "城市与路线用于描述交付出行覆盖，不代表交付结果或质量"
+  },
+  "summary": {
+    "people": 26,
+    "expensePeople": 26,
+    "spent": 294545.16,
+    "quota": 340000.0,
+    "usage": 0.866309294117647,
+    "remaining": 45454.84,
+    "records": 1167,
+    "cities": 44,
+    "warningPeople": 13,
+    "overPeople": 7,
+    "typeTotals": {
+      "机票": 88585.03,
+      "火车": 66879.5,
+      "酒店": 139080.63
+    }
+  },
+  "monthly": [
+    {
+      "month": "1月",
+      "spent": 84642.24,
+      "quota": 36000.0,
+      "usage": 2.351173333333334,
+      "records": 247,
+      "people": 12,
+      "cities": 36
+    },
+    {
+      "month": "2月",
+      "spent": 5509.86,
+      "quota": 36000.0,
+      "usage": 0.15305166666666667,
+      "records": 20,
+      "people": 6,
+      "cities": 12
+    },
+    {
+      "month": "3月",
+      "spent": 50085.45,
+      "quota": 60000.0,
+      "usage": 0.8347574999999999,
+      "records": 254,
+      "people": 15,
+      "cities": 52
+    },
+    {
+      "month": "4月",
+      "spent": 46584.77,
+      "quota": 64000.0,
+      "usage": 0.7278870312500001,
+      "records": 188,
+      "people": 16,
+      "cities": 41
+    },
+    {
+      "month": "5月",
+      "spent": 47067.16,
+      "quota": 72000.0,
+      "usage": 0.6537105555555556,
+      "records": 177,
+      "people": 18,
+      "cities": 48
+    },
+    {
+      "month": "6月",
+      "spent": 60655.68,
+      "quota": 72000.0,
+      "usage": 0.84244,
+      "records": 281,
+      "people": 17,
+      "cities": 53
+    }
+  ],
+  "groups": [
+    {
+      "group": "客户成功1组",
+      "people": 2,
+      "expensePeople": 2,
+      "spent": 2826.68,
+      "quota": 16000.0,
+      "usage": 0.1766675,
+      "remaining": 13173.32,
+      "records": 4,
+      "cities": 2,
+      "warningPeople": 0
+    },
+    {
+      "group": "客户成功2组",
+      "people": 3,
+      "expensePeople": 3,
+      "spent": 19623.0,
+      "quota": 21333.34,
+      "usage": 0.9198278375538007,
+      "remaining": 1710.34,
+      "records": 46,
+      "cities": 6,
+      "warningPeople": 2
+    },
+    {
+      "group": "客户成功3组",
+      "people": 3,
+      "expensePeople": 3,
+      "spent": 12126.72,
+      "quota": 25333.34,
+      "usage": 0.4786861898194237,
+      "remaining": 13206.62,
+      "records": 83,
+      "cities": 12,
+      "warningPeople": 1
+    },
+    {
+      "group": "部门直属",
+      "people": 18,
+      "expensePeople": 18,
+      "spent": 259968.76,
+      "quota": 277333.32,
+      "usage": 0.9373874008359327,
+      "remaining": 17364.56,
+      "records": 1034,
+      "cities": 41,
+      "warningPeople": 10
+    }
+  ],
+  "people": [
+    {
+      "name": "万松祥",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 14403.87,
+      "quota": 16000.0,
+      "usage": 0.900241875,
+      "remaining": 1596.13,
+      "records": 53,
+      "activeMonths": 4,
+      "cityCount": 12,
+      "refundRecords": 5,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 10375.0
+        },
+        {
+          "name": "深圳市",
+          "value": 2465.0
+        },
+        {
+          "name": "青岛市",
+          "value": 1102.74
+        },
+        {
+          "name": "昭通市",
+          "value": 988.0
+        },
+        {
+          "name": "昆明市",
+          "value": 610.0
+        },
+        {
+          "name": "东莞市",
+          "value": 231.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "青岛市-深圳市",
+          "value": 1910.0
+        },
+        {
+          "name": "昆明市-广州市",
+          "value": 1070.0
+        },
+        {
+          "name": "深圳市-广州市",
+          "value": 794.0
+        },
+        {
+          "name": "昭通市-昆明市",
+          "value": 610.0
+        }
+      ],
+      "byType": {
+        "机票": 2630.0,
+        "火车": 1733.0,
+        "酒店": 10040.87
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 781.5,
+          "quota": 4000.0,
+          "usage": 0.195375,
+          "records": 5
+        },
+        {
+          "month": "4月",
+          "spent": 5245.87,
+          "quota": 4000.0,
+          "usage": 1.3114675,
+          "records": 11
+        },
+        {
+          "month": "5月",
+          "spent": 4003.0,
+          "quota": 4000.0,
+          "usage": 1.00075,
+          "records": 16
+        },
+        {
+          "month": "6月",
+          "spent": 4373.5,
+          "quota": 4000.0,
+          "usage": 1.093375,
+          "records": 21
+        }
+      ],
+      "labels": [
+        "累计额度预警",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 5,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "任蚨呈",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 1996.0,
+      "quota": 12000.0,
+      "usage": 0.16633333333333333,
+      "remaining": 10004.0,
+      "records": 3,
+      "activeMonths": 2,
+      "cityCount": 2,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "昭通市",
+          "value": 1875.0
+        },
+        {
+          "name": "北京市",
+          "value": 121.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "北京市-昭通市",
+          "value": 1080.0
+        },
+        {
+          "name": "邯郸市-北京市",
+          "value": 121.0
+        }
+      ],
+      "byType": {
+        "机票": 1080.0,
+        "火车": 121.0,
+        "酒店": 795.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 795.0,
+          "quota": 4000.0,
+          "usage": 0.19875,
+          "records": 1
+        },
+        {
+          "month": "5月",
+          "spent": 1201.0,
+          "quota": 4000.0,
+          "usage": 0.30025,
+          "records": 2
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 4000.0,
+          "usage": 0.0,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "傅翔骏",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 10760.0,
+      "quota": 19333.34,
+      "usage": 0.5565515322236095,
+      "remaining": 8573.34,
+      "records": 52,
+      "activeMonths": 5,
+      "cityCount": 11,
+      "refundRecords": 1,
+      "topCities": [
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 3800.0
+        },
+        {
+          "name": "江门市",
+          "value": 1702.0
+        },
+        {
+          "name": "海口市",
+          "value": 1681.0
+        },
+        {
+          "name": "深圳市",
+          "value": 1330.0
+        },
+        {
+          "name": "惠州市",
+          "value": 1280.0
+        },
+        {
+          "name": "万宁市",
+          "value": 1175.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "深圳市-西双版纳傣族自治州",
+          "value": 3800.0
+        },
+        {
+          "name": "西双版纳傣族自治州-深圳市",
+          "value": 1330.0
+        },
+        {
+          "name": "海口市-惠州市",
+          "value": 1200.0
+        },
+        {
+          "name": "深圳市-海口市",
+          "value": 870.0
+        }
+      ],
+      "byType": {
+        "机票": 5930.0,
+        "火车": 1837.0,
+        "酒店": 2993.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 4029.0,
+          "quota": 3000.0,
+          "usage": 1.343,
+          "records": 13
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 1173.0,
+          "quota": 4000.0,
+          "usage": 0.29325,
+          "records": 12
+        },
+        {
+          "month": "4月",
+          "spent": 674.0,
+          "quota": 4000.0,
+          "usage": 0.1685,
+          "records": 8
+        },
+        {
+          "month": "5月",
+          "spent": 3018.0,
+          "quota": 2666.67,
+          "usage": 1.13175,
+          "records": 10
+        },
+        {
+          "month": "6月",
+          "spent": 1866.0,
+          "quota": 2666.67,
+          "usage": 0.6997500000000001,
+          "records": 9
+        }
+      ],
+      "labels": [
+        "出行城市较多"
+      ],
+      "riskScore": 1,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "刘敬涛",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 7699.0,
+      "quota": 16666.66,
+      "usage": 0.4619401847760739,
+      "remaining": 8967.66,
+      "records": 25,
+      "activeMonths": 5,
+      "cityCount": 9,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1980.0
+        },
+        {
+          "name": "钦州市",
+          "value": 1895.0
+        },
+        {
+          "name": "广州市",
+          "value": 1553.5
+        },
+        {
+          "name": "昆明市",
+          "value": 1447.0
+        },
+        {
+          "name": "河源市",
+          "value": 498.0
+        },
+        {
+          "name": "韶关市",
+          "value": 190.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "广州市-西双版纳傣族自治州",
+          "value": 1980.0
+        },
+        {
+          "name": "广州市-昆明市",
+          "value": 870.0
+        },
+        {
+          "name": "广州市-钦州市",
+          "value": 582.0
+        },
+        {
+          "name": "昆明市-广州市",
+          "value": 520.0
+        }
+      ],
+      "byType": {
+        "机票": 3370.0,
+        "火车": 2249.0,
+        "酒店": 2080.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 3947.0,
+          "quota": 3000.0,
+          "usage": 1.3156666666666668,
+          "records": 4
+        },
+        {
+          "month": "2月",
+          "spent": 292.0,
+          "quota": 3000.0,
+          "usage": 0.09733333333333333,
+          "records": 1
+        },
+        {
+          "month": "3月",
+          "spent": 1219.0,
+          "quota": 4000.0,
+          "usage": 0.30475,
+          "records": 5
+        },
+        {
+          "month": "4月",
+          "spent": 1834.0,
+          "quota": 4000.0,
+          "usage": 0.4585,
+          "records": 12
+        },
+        {
+          "month": "5月",
+          "spent": 407.0,
+          "quota": 1333.33,
+          "usage": 0.30525,
+          "records": 3
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 1333.33,
+          "usage": 0.0,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "出行城市较多"
+      ],
+      "riskScore": 1,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "刘莉",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功2组",
+      "group": "客户成功2组",
+      "spent": 6594.0,
+      "quota": 5333.34,
+      "usage": 1.2363734545331817,
+      "remaining": -1260.66,
+      "records": 8,
+      "activeMonths": 1,
+      "cityCount": 3,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "北京市",
+          "value": 2940.0
+        },
+        {
+          "name": "深圳市",
+          "value": 2259.0
+        },
+        {
+          "name": "广州市",
+          "value": 1395.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "深圳市-北京市",
+          "value": 2940.0
+        },
+        {
+          "name": "北京市-深圳市",
+          "value": 1780.0
+        },
+        {
+          "name": "北京市-广州市",
+          "value": 790.0
+        },
+        {
+          "name": "广州市-深圳市",
+          "value": 83.0
+        }
+      ],
+      "byType": {
+        "机票": 5510.0,
+        "火车": 83.0,
+        "酒店": 1001.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 2666.67,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 6594.0,
+          "quota": 2666.67,
+          "usage": 2.47275,
+          "records": 8
+        }
+      ],
+      "labels": [
+        "累计额度超额"
+      ],
+      "riskScore": 5,
+      "peerMedian": 6594.0,
+      "risk": "高"
+    },
+    {
+      "name": "周文杰",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 4661.0,
+      "quota": 10000.0,
+      "usage": 0.4661,
+      "remaining": 5339.0,
+      "records": 9,
+      "activeMonths": 2,
+      "cityCount": 4,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 2179.0
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1980.0
+        },
+        {
+          "name": "深圳市",
+          "value": 462.0
+        },
+        {
+          "name": "中山市",
+          "value": 40.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "西双版纳傣族自治州-广州市",
+          "value": 1980.0
+        },
+        {
+          "name": "广州市-西双版纳傣族自治州",
+          "value": 1980.0
+        },
+        {
+          "name": "广州市-深圳市",
+          "value": 174.0
+        },
+        {
+          "name": "深圳市-广州市",
+          "value": 159.0
+        }
+      ],
+      "byType": {
+        "机票": 3960.0,
+        "火车": 413.0,
+        "酒店": 288.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 4581.0,
+          "quota": 3000.0,
+          "usage": 1.527,
+          "records": 7
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 80.0,
+          "quota": 4000.0,
+          "usage": 0.02,
+          "records": 2
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "周杨",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 14629.0,
+      "quota": 16666.66,
+      "usage": 0.8777403510961405,
+      "remaining": 2037.66,
+      "records": 57,
+      "activeMonths": 4,
+      "cityCount": 9,
+      "refundRecords": 1,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 4680.5
+        },
+        {
+          "name": "深圳市",
+          "value": 3653.5
+        },
+        {
+          "name": "北京市",
+          "value": 2602.0
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1780.0
+        },
+        {
+          "name": "钦州市",
+          "value": 1259.0
+        },
+        {
+          "name": "中山市",
+          "value": 463.5
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "深圳市-西双版纳傣族自治州",
+          "value": 1780.0
+        },
+        {
+          "name": "北京市-深圳市",
+          "value": 1380.0
+        },
+        {
+          "name": "深圳市-北京市",
+          "value": 1380.0
+        },
+        {
+          "name": "西双版纳傣族自治州-深圳市",
+          "value": 1330.0
+        }
+      ],
+      "byType": {
+        "机票": 5870.0,
+        "火车": 3636.0,
+        "酒店": 5123.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 8551.5,
+          "quota": 3000.0,
+          "usage": 2.8505,
+          "records": 15
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 2473.0,
+          "quota": 4000.0,
+          "usage": 0.61825,
+          "records": 17
+        },
+        {
+          "month": "4月",
+          "spent": 1729.0,
+          "quota": 4000.0,
+          "usage": 0.43225,
+          "records": 12
+        },
+        {
+          "month": "5月",
+          "spent": 1875.5,
+          "quota": 1333.33,
+          "usage": 1.406625,
+          "records": 13
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 1333.33,
+          "usage": 0.0,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "累计额度预警",
+        "出行城市较多"
+      ],
+      "riskScore": 4,
+      "peerMedian": 13327.48,
+      "risk": "中"
+    },
+    {
+      "name": "姜晓林",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 19494.96,
+      "quota": 22000.0,
+      "usage": 0.8861345454545454,
+      "remaining": 2505.04,
+      "records": 71,
+      "activeMonths": 5,
+      "cityCount": 17,
+      "refundRecords": 4,
+      "topCities": [
+        {
+          "name": "北京市",
+          "value": 5474.0
+        },
+        {
+          "name": "青岛市",
+          "value": 3487.76
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 2720.0
+        },
+        {
+          "name": "平度市",
+          "value": 1381.0
+        },
+        {
+          "name": "潍坊市",
+          "value": 1234.0
+        },
+        {
+          "name": "济南市",
+          "value": 1000.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "北京市-西双版纳傣族自治州",
+          "value": 2720.0
+        },
+        {
+          "name": "西双版纳傣族自治州-北京市",
+          "value": 2354.0
+        },
+        {
+          "name": "北京市-平度市",
+          "value": 969.0
+        },
+        {
+          "name": "北京市-潍坊市",
+          "value": 871.0
+        }
+      ],
+      "byType": {
+        "机票": 5074.0,
+        "火车": 8728.0,
+        "酒店": 5692.96
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 6116.0,
+          "quota": 3000.0,
+          "usage": 2.038666666666667,
+          "records": 7
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 6321.34,
+          "quota": 4000.0,
+          "usage": 1.580335,
+          "records": 29
+        },
+        {
+          "month": "4月",
+          "spent": 3354.62,
+          "quota": 4000.0,
+          "usage": 0.8386549999999999,
+          "records": 17
+        },
+        {
+          "month": "5月",
+          "spent": 2040.0,
+          "quota": 4000.0,
+          "usage": 0.51,
+          "records": 10
+        },
+        {
+          "month": "6月",
+          "spent": 1663.0,
+          "quota": 4000.0,
+          "usage": 0.41575,
+          "records": 8
+        }
+      ],
+      "labels": [
+        "累计额度预警",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 5,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "张腾蛟",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 27552.92,
+      "quota": 22000.0,
+      "usage": 1.2524054545454544,
+      "remaining": -5552.92,
+      "records": 119,
+      "activeMonths": 5,
+      "cityCount": 8,
+      "refundRecords": 4,
+      "topCities": [
+        {
+          "name": "岳阳市",
+          "value": 7218.5
+        },
+        {
+          "name": "襄阳市",
+          "value": 6721.0
+        },
+        {
+          "name": "武汉市",
+          "value": 5928.42
+        },
+        {
+          "name": "西安市",
+          "value": 4362.5
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1780.0
+        },
+        {
+          "name": "郑州市",
+          "value": 1683.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "西安市-武汉市",
+          "value": 2105.5
+        },
+        {
+          "name": "西安市-岳阳市",
+          "value": 1952.5
+        },
+        {
+          "name": "西安市-西双版纳傣族自治州",
+          "value": 1780.0
+        },
+        {
+          "name": "西双版纳傣族自治州-西安市",
+          "value": 1480.0
+        }
+      ],
+      "byType": {
+        "机票": 3090.0,
+        "火车": 11110.0,
+        "酒店": 13352.92
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 8343.5,
+          "quota": 3000.0,
+          "usage": 2.7811666666666666,
+          "records": 29
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 5380.42,
+          "quota": 4000.0,
+          "usage": 1.345105,
+          "records": 24
+        },
+        {
+          "month": "4月",
+          "spent": 4724.0,
+          "quota": 4000.0,
+          "usage": 1.181,
+          "records": 25
+        },
+        {
+          "month": "5月",
+          "spent": 3775.0,
+          "quota": 4000.0,
+          "usage": 0.94375,
+          "records": 18
+        },
+        {
+          "month": "6月",
+          "spent": 5330.0,
+          "quota": 4000.0,
+          "usage": 1.3325,
+          "records": 23
+        }
+      ],
+      "labels": [
+        "累计额度超额",
+        "高于同组中位数",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 9,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "房沛强",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功3组",
+      "group": "客户成功3组",
+      "spent": 5403.24,
+      "quota": 12000.0,
+      "usage": 0.45027,
+      "remaining": 6596.76,
+      "records": 33,
+      "activeMonths": 3,
+      "cityCount": 8,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "临沂市",
+          "value": 2021.0
+        },
+        {
+          "name": "泰安市",
+          "value": 1825.0
+        },
+        {
+          "name": "青岛市",
+          "value": 570.0
+        },
+        {
+          "name": "焦作市",
+          "value": 389.24
+        },
+        {
+          "name": "郑州市",
+          "value": 303.0
+        },
+        {
+          "name": "潍坊市",
+          "value": 218.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "郑州市-临沂市",
+          "value": 253.0
+        },
+        {
+          "name": "临沂市-郑州市",
+          "value": 253.0
+        },
+        {
+          "name": "临沂市-潍坊市",
+          "value": 218.0
+        },
+        {
+          "name": "潍坊市-临沂市",
+          "value": 159.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 1412.0,
+        "酒店": 3991.24
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 1755.0,
+          "quota": 4000.0,
+          "usage": 0.43875,
+          "records": 10
+        },
+        {
+          "month": "5月",
+          "spent": 1380.0,
+          "quota": 4000.0,
+          "usage": 0.345,
+          "records": 8
+        },
+        {
+          "month": "6月",
+          "spent": 2268.24,
+          "quota": 4000.0,
+          "usage": 0.5670599999999999,
+          "records": 15
+        }
+      ],
+      "labels": [
+        "出行城市较多"
+      ],
+      "riskScore": 1,
+      "peerMedian": 4718.34,
+      "risk": "低"
+    },
+    {
+      "name": "敦嘉伟",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 1072.0,
+      "quota": 4000.0,
+      "usage": 0.268,
+      "remaining": 2928.0,
+      "records": 5,
+      "activeMonths": 1,
+      "cityCount": 3,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "朔州市",
+          "value": 585.0
+        },
+        {
+          "name": "济南市",
+          "value": 352.0
+        },
+        {
+          "name": "平度市",
+          "value": 135.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "济南市-朔州市",
+          "value": 240.0
+        },
+        {
+          "name": "朔州市-济南市",
+          "value": 221.0
+        },
+        {
+          "name": "济南市-平度市",
+          "value": 135.0
+        },
+        {
+          "name": "平度市-济南市",
+          "value": 131.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 727.0,
+        "酒店": 345.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 1072.0,
+          "quota": 4000.0,
+          "usage": 0.268,
+          "records": 5
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "曹威",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功1组",
+      "group": "客户成功1组",
+      "spent": 1746.68,
+      "quota": 8000.0,
+      "usage": 0.218335,
+      "remaining": 6253.32,
+      "records": 3,
+      "activeMonths": 2,
+      "cityCount": 2,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "昆明市",
+          "value": 1346.68
+        },
+        {
+          "name": "昭通市",
+          "value": 400.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "南昌市-昆明市",
+          "value": 1080.0
+        }
+      ],
+      "byType": {
+        "机票": 1080.0,
+        "火车": 0,
+        "酒店": 666.68
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 266.68,
+          "quota": 4000.0,
+          "usage": 0.06667000000000001,
+          "records": 1
+        },
+        {
+          "month": "6月",
+          "spent": 1480.0,
+          "quota": 4000.0,
+          "usage": 0.37,
+          "records": 2
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 1413.34,
+      "risk": "低"
+    },
+    {
+      "name": "朱伟煜",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 21604.63,
+      "quota": 22000.0,
+      "usage": 0.9820286363636362,
+      "remaining": 395.37,
+      "records": 110,
+      "activeMonths": 6,
+      "cityCount": 15,
+      "refundRecords": 1,
+      "topCities": [
+        {
+          "name": "厦门市",
+          "value": 7488.03
+        },
+        {
+          "name": "潮州市",
+          "value": 2276.0
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1955.0
+        },
+        {
+          "name": "南宁市",
+          "value": 1741.0
+        },
+        {
+          "name": "泉州市",
+          "value": 1635.0
+        },
+        {
+          "name": "景德镇市",
+          "value": 1571.6
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "泉州市-西双版纳傣族自治州",
+          "value": 1769.0
+        },
+        {
+          "name": "南宁市-厦门市",
+          "value": 1428.03
+        },
+        {
+          "name": "西双版纳傣族自治州-泉州市",
+          "value": 899.0
+        },
+        {
+          "name": "徐州市-泉州市",
+          "value": 720.0
+        }
+      ],
+      "byType": {
+        "机票": 6686.03,
+        "火车": 3692.5,
+        "酒店": 11226.1
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 8201.5,
+          "quota": 3000.0,
+          "usage": 2.733833333333333,
+          "records": 34
+        },
+        {
+          "month": "2月",
+          "spent": 990.0,
+          "quota": 3000.0,
+          "usage": 0.33,
+          "records": 5
+        },
+        {
+          "month": "3月",
+          "spent": 5028.13,
+          "quota": 4000.0,
+          "usage": 1.2570324999999998,
+          "records": 30
+        },
+        {
+          "month": "4月",
+          "spent": 1572.0,
+          "quota": 4000.0,
+          "usage": 0.393,
+          "records": 11
+        },
+        {
+          "month": "5月",
+          "spent": 2181.0,
+          "quota": 4000.0,
+          "usage": 0.54525,
+          "records": 9
+        },
+        {
+          "month": "6月",
+          "spent": 3632.0,
+          "quota": 4000.0,
+          "usage": 0.908,
+          "records": 21
+        }
+      ],
+      "labels": [
+        "累计额度预警",
+        "出行城市较多"
+      ],
+      "riskScore": 4,
+      "peerMedian": 13327.48,
+      "risk": "中"
+    },
+    {
+      "name": "朱清楣",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 258.0,
+      "quota": 4000.0,
+      "usage": 0.0645,
+      "remaining": 3742.0,
+      "records": 1,
+      "activeMonths": 1,
+      "cityCount": 1,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 258.0
+        }
+      ],
+      "topRoutes": [],
+      "byType": {
+        "机票": 0,
+        "火车": 0,
+        "酒店": 258.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 258.0,
+          "quota": 4000.0,
+          "usage": 0.0645,
+          "records": 1
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "李子阳",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功1组",
+      "group": "客户成功1组",
+      "spent": 1080.0,
+      "quota": 8000.0,
+      "usage": 0.135,
+      "remaining": 6920.0,
+      "records": 1,
+      "activeMonths": 1,
+      "cityCount": 1,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "昭通市",
+          "value": 1080.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "北京市-昭通市",
+          "value": 1080.0
+        }
+      ],
+      "byType": {
+        "机票": 1080.0,
+        "火车": 0,
+        "酒店": 0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 1080.0,
+          "quota": 4000.0,
+          "usage": 0.27,
+          "records": 1
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 4000.0,
+          "usage": 0.0,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 1413.34,
+      "risk": "低"
+    },
+    {
+      "name": "李旻慧",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 7207.06,
+      "quota": 14000.0,
+      "usage": 0.51479,
+      "remaining": 6792.94,
+      "records": 26,
+      "activeMonths": 3,
+      "cityCount": 3,
+      "refundRecords": 1,
+      "topCities": [
+        {
+          "name": "深圳市",
+          "value": 3306.4
+        },
+        {
+          "name": "广州市",
+          "value": 2464.5
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1980.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "广州市-西双版纳傣族自治州",
+          "value": 1980.0
+        },
+        {
+          "name": "大理白族自治州-广州市",
+          "value": 1860.0
+        },
+        {
+          "name": "深圳市-广州市",
+          "value": 604.5
+        },
+        {
+          "name": "广州市-深圳市",
+          "value": 596.0
+        }
+      ],
+      "byType": {
+        "机票": 3840.0,
+        "火车": 1200.5,
+        "酒店": 2166.56
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 4830.84,
+          "quota": 3000.0,
+          "usage": 1.6102800000000002,
+          "records": 10
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 3000.0,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 1964.1,
+          "quota": 4000.0,
+          "usage": 0.491025,
+          "records": 12
+        },
+        {
+          "month": "4月",
+          "spent": 412.12,
+          "quota": 4000.0,
+          "usage": 0.10303,
+          "records": 4
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    },
+    {
+      "name": "杨彬",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功3组",
+      "group": "客户成功3组",
+      "spent": 4718.34,
+      "quota": 8000.0,
+      "usage": 0.5897925,
+      "remaining": 3281.66,
+      "records": 34,
+      "activeMonths": 2,
+      "cityCount": 9,
+      "refundRecords": 2,
+      "topCities": [
+        {
+          "name": "青岛市",
+          "value": 1699.0
+        },
+        {
+          "name": "临沂市",
+          "value": 1246.0
+        },
+        {
+          "name": "平度市",
+          "value": 518.0
+        },
+        {
+          "name": "济南市",
+          "value": 447.0
+        },
+        {
+          "name": "郑州市",
+          "value": 430.0
+        },
+        {
+          "name": "焦作市",
+          "value": 406.84
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "平度市-济南市",
+          "value": 385.0
+        },
+        {
+          "name": "平度市-郑州市",
+          "value": 380.0
+        },
+        {
+          "name": "济南市-临沂市",
+          "value": 294.0
+        },
+        {
+          "name": "济南市-平度市",
+          "value": 286.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 2211.5,
+        "酒店": 2506.84
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 292.0,
+          "quota": 4000.0,
+          "usage": 0.073,
+          "records": 2
+        },
+        {
+          "month": "6月",
+          "spent": 4426.34,
+          "quota": 4000.0,
+          "usage": 1.106585,
+          "records": 32
+        }
+      ],
+      "labels": [
+        "6月费用显著上升",
+        "出行城市较多"
+      ],
+      "riskScore": 3,
+      "peerMedian": 4718.34,
+      "risk": "中"
+    },
+    {
+      "name": "汪智诚",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 27243.84,
+      "quota": 22000.0,
+      "usage": 1.2383563636363637,
+      "remaining": -5243.84,
+      "records": 140,
+      "activeMonths": 6,
+      "cityCount": 11,
+      "refundRecords": 8,
+      "topCities": [
+        {
+          "name": "合肥市",
+          "value": 15703.7
+        },
+        {
+          "name": "阜阳市",
+          "value": 6690.5
+        },
+        {
+          "name": "北京市",
+          "value": 3141.72
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1270.0
+        },
+        {
+          "name": "六安市",
+          "value": 1233.0
+        },
+        {
+          "name": "宿州市",
+          "value": 590.02
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "合肥市-阜阳市",
+          "value": 1545.5
+        },
+        {
+          "name": "西双版纳傣族自治州-合肥市",
+          "value": 1411.0
+        },
+        {
+          "name": "阜阳市-合肥市",
+          "value": 1330.0
+        },
+        {
+          "name": "合肥市-西双版纳傣族自治州",
+          "value": 1270.0
+        }
+      ],
+      "byType": {
+        "机票": 2681.0,
+        "火车": 5884.5,
+        "酒店": 18678.34
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 7033.72,
+          "quota": 3000.0,
+          "usage": 2.3445733333333334,
+          "records": 34
+        },
+        {
+          "month": "2月",
+          "spent": 1411.0,
+          "quota": 3000.0,
+          "usage": 0.4703333333333333,
+          "records": 1
+        },
+        {
+          "month": "3月",
+          "spent": 4554.62,
+          "quota": 4000.0,
+          "usage": 1.138655,
+          "records": 27
+        },
+        {
+          "month": "4月",
+          "spent": 4397.84,
+          "quota": 4000.0,
+          "usage": 1.09946,
+          "records": 19
+        },
+        {
+          "month": "5月",
+          "spent": 4469.2,
+          "quota": 4000.0,
+          "usage": 1.1173,
+          "records": 26
+        },
+        {
+          "month": "6月",
+          "spent": 5377.46,
+          "quota": 4000.0,
+          "usage": 1.344365,
+          "records": 33
+        }
+      ],
+      "labels": [
+        "累计额度超额",
+        "高于同组中位数",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 9,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "王志伟",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功3组",
+      "group": "客户成功3组",
+      "spent": 2005.14,
+      "quota": 5333.34,
+      "usage": 0.3759632800458999,
+      "remaining": 3328.2,
+      "records": 16,
+      "activeMonths": 1,
+      "cityCount": 4,
+      "refundRecords": 2,
+      "topCities": [
+        {
+          "name": "宿州市",
+          "value": 1190.64
+        },
+        {
+          "name": "黄山市",
+          "value": 649.6
+        },
+        {
+          "name": "六安市",
+          "value": 433.0
+        },
+        {
+          "name": "合肥市",
+          "value": 356.5
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "合肥市-宿州市",
+          "value": 327.0
+        },
+        {
+          "name": "宿州市-合肥市",
+          "value": 321.5
+        },
+        {
+          "name": "宿州市-黄山市",
+          "value": 250.0
+        },
+        {
+          "name": "六安市-合肥市",
+          "value": 35.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 741.5,
+        "酒店": 1263.64
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 2666.67,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 2005.14,
+          "quota": 2666.67,
+          "usage": 0.7519275,
+          "records": 16
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 4718.34,
+      "risk": "低"
+    },
+    {
+      "name": "王甜甜",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 45497.5,
+      "quota": 22000.0,
+      "usage": 2.0680681818181816,
+      "remaining": -23497.5,
+      "records": 92,
+      "activeMonths": 6,
+      "cityCount": 9,
+      "refundRecords": 13,
+      "topCities": [
+        {
+          "name": "昆明市",
+          "value": 17845.66
+        },
+        {
+          "name": "昭通市",
+          "value": 14161.0
+        },
+        {
+          "name": "西安市",
+          "value": 6943.0
+        },
+        {
+          "name": "北京市",
+          "value": 4152.0
+        },
+        {
+          "name": "成都市",
+          "value": 3219.0
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 2240.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "昭通市-昆明市",
+          "value": 3417.0
+        },
+        {
+          "name": "昆明市-昭通市",
+          "value": 3130.0
+        },
+        {
+          "name": "西安市-昭通市",
+          "value": 2100.0
+        },
+        {
+          "name": "成都市-昆明市",
+          "value": 1998.5
+        }
+      ],
+      "byType": {
+        "机票": 22810.0,
+        "火车": 4360.5,
+        "酒店": 18327.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 12492.0,
+          "quota": 3000.0,
+          "usage": 4.164,
+          "records": 20
+        },
+        {
+          "month": "2月",
+          "spent": 1560.0,
+          "quota": 3000.0,
+          "usage": 0.52,
+          "records": 4
+        },
+        {
+          "month": "3月",
+          "spent": 7743.68,
+          "quota": 4000.0,
+          "usage": 1.9359199999999999,
+          "records": 16
+        },
+        {
+          "month": "4月",
+          "spent": 8099.32,
+          "quota": 4000.0,
+          "usage": 2.02483,
+          "records": 15
+        },
+        {
+          "month": "5月",
+          "spent": 10545.6,
+          "quota": 4000.0,
+          "usage": 2.6363999999999996,
+          "records": 20
+        },
+        {
+          "month": "6月",
+          "spent": 5056.9,
+          "quota": 4000.0,
+          "usage": 1.264225,
+          "records": 17
+        }
+      ],
+      "labels": [
+        "累计额度超额",
+        "高于同组中位数",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 9,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "白金龙",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 17362.52,
+      "quota": 14000.0,
+      "usage": 1.24018,
+      "remaining": -3362.52,
+      "records": 101,
+      "activeMonths": 4,
+      "cityCount": 13,
+      "refundRecords": 5,
+      "topCities": [
+        {
+          "name": "宿州市",
+          "value": 5877.56
+        },
+        {
+          "name": "徐州市",
+          "value": 4435.96
+        },
+        {
+          "name": "黄山市",
+          "value": 2250.5
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1828.0
+        },
+        {
+          "name": "成都市",
+          "value": 1708.0
+        },
+        {
+          "name": "青岛市",
+          "value": 1090.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "青岛市-西双版纳傣族自治州",
+          "value": 1828.0
+        },
+        {
+          "name": "西双版纳傣族自治州-青岛市",
+          "value": 1090.0
+        },
+        {
+          "name": "徐州市-成都市",
+          "value": 990.0
+        },
+        {
+          "name": "成都市-徐州市",
+          "value": 700.0
+        }
+      ],
+      "byType": {
+        "机票": 2552.0,
+        "火车": 5243.0,
+        "酒店": 9567.52
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 8208.26,
+          "quota": 3000.0,
+          "usage": 2.736086666666666,
+          "records": 44
+        },
+        {
+          "month": "2月",
+          "spent": 1232.86,
+          "quota": 3000.0,
+          "usage": 0.4109533333333334,
+          "records": 8
+        },
+        {
+          "month": "3月",
+          "spent": 6149.4,
+          "quota": 4000.0,
+          "usage": 1.53735,
+          "records": 39
+        },
+        {
+          "month": "4月",
+          "spent": 1772.0,
+          "quota": 4000.0,
+          "usage": 0.443,
+          "records": 10
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        }
+      ],
+      "labels": [
+        "累计额度超额",
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 7,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "耿禹淇",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功2组",
+      "group": "客户成功2组",
+      "spent": 10834.0,
+      "quota": 8000.0,
+      "usage": 1.35425,
+      "remaining": -2834.0,
+      "records": 17,
+      "activeMonths": 2,
+      "cityCount": 5,
+      "refundRecords": 1,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 3832.0
+        },
+        {
+          "name": "北京市",
+          "value": 3747.0
+        },
+        {
+          "name": "深圳市",
+          "value": 2162.0
+        },
+        {
+          "name": "厦门市",
+          "value": 696.0
+        },
+        {
+          "name": "苏州市",
+          "value": 627.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "北京市-广州市",
+          "value": 2320.0
+        },
+        {
+          "name": "厦门市-北京市",
+          "value": 1600.0
+        },
+        {
+          "name": "深圳市-北京市",
+          "value": 1520.0
+        },
+        {
+          "name": "苏州市-北京市",
+          "value": 627.0
+        }
+      ],
+      "byType": {
+        "机票": 5440.0,
+        "火车": 1723.0,
+        "酒店": 3671.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 5700.0,
+          "quota": 4000.0,
+          "usage": 1.425,
+          "records": 8
+        },
+        {
+          "month": "6月",
+          "spent": 5134.0,
+          "quota": 4000.0,
+          "usage": 1.2835,
+          "records": 9
+        }
+      ],
+      "labels": [
+        "累计额度超额"
+      ],
+      "riskScore": 5,
+      "peerMedian": 6594.0,
+      "risk": "高"
+    },
+    {
+      "name": "袁连杰",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 2211.5,
+      "quota": 2666.66,
+      "usage": 0.8293145732864332,
+      "remaining": 455.16,
+      "records": 7,
+      "activeMonths": 1,
+      "cityCount": 4,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 1075.0
+        },
+        {
+          "name": "合肥市",
+          "value": 586.0
+        },
+        {
+          "name": "阜阳市",
+          "value": 317.5
+        },
+        {
+          "name": "六安市",
+          "value": 233.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "广州市-合肥市",
+          "value": 586.0
+        },
+        {
+          "name": "合肥市-广州市",
+          "value": 550.0
+        },
+        {
+          "name": "合肥市-阜阳市",
+          "value": 117.5
+        },
+        {
+          "name": "合肥市-六安市",
+          "value": 33.0
+        }
+      ],
+      "byType": {
+        "机票": 550.0,
+        "火车": 736.5,
+        "酒店": 925.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 0.0,
+          "quota": 1333.33,
+          "usage": 0.0,
+          "records": 0
+        },
+        {
+          "month": "6月",
+          "spent": 2211.5,
+          "quota": 1333.33,
+          "usage": 1.658625,
+          "records": 7
+        }
+      ],
+      "labels": [
+        "累计额度预警"
+      ],
+      "riskScore": 3,
+      "peerMedian": 13327.48,
+      "risk": "中"
+    },
+    {
+      "name": "许梦露",
+      "department": "光合新知-入校项目组/智课团队/客户成功部/客户成功2组",
+      "group": "客户成功2组",
+      "spent": 2195.0,
+      "quota": 8000.0,
+      "usage": 0.274375,
+      "remaining": 5805.0,
+      "records": 21,
+      "activeMonths": 2,
+      "cityCount": 3,
+      "refundRecords": 0,
+      "topCities": [
+        {
+          "name": "广州市",
+          "value": 1243.0
+        },
+        {
+          "name": "深圳市",
+          "value": 580.0
+        },
+        {
+          "name": "河源市",
+          "value": 372.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "深圳市-河源市",
+          "value": 372.0
+        },
+        {
+          "name": "深圳市-广州市",
+          "value": 362.0
+        },
+        {
+          "name": "广州市-深圳市",
+          "value": 304.0
+        },
+        {
+          "name": "河源市-深圳市",
+          "value": 276.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 1407.0,
+        "酒店": 788.0
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "4月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "5月",
+          "spent": 302.0,
+          "quota": 4000.0,
+          "usage": 0.0755,
+          "records": 4
+        },
+        {
+          "month": "6月",
+          "spent": 1893.0,
+          "quota": 4000.0,
+          "usage": 0.47325,
+          "records": 17
+        }
+      ],
+      "labels": [
+        "暂无异常"
+      ],
+      "riskScore": 0,
+      "peerMedian": 6594.0,
+      "risk": "低"
+    },
+    {
+      "name": "郭磊磊",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 24063.88,
+      "quota": 22000.0,
+      "usage": 1.0938127272727274,
+      "remaining": -2063.88,
+      "records": 102,
+      "activeMonths": 6,
+      "cityCount": 12,
+      "refundRecords": 2,
+      "topCities": [
+        {
+          "name": "苏州市",
+          "value": 6689.0
+        },
+        {
+          "name": "杭州市",
+          "value": 4919.4
+        },
+        {
+          "name": "北京市",
+          "value": 4809.52
+        },
+        {
+          "name": "昭通市",
+          "value": 2526.0
+        },
+        {
+          "name": "镇江市",
+          "value": 1572.0
+        },
+        {
+          "name": "西双版纳傣族自治州",
+          "value": 1532.0
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "杭州市-西双版纳傣族自治州",
+          "value": 1532.0
+        },
+        {
+          "name": "杭州市-昭通市",
+          "value": 1380.0
+        },
+        {
+          "name": "杭州市-北京市",
+          "value": 1264.0
+        },
+        {
+          "name": "昭通市-杭州市",
+          "value": 1050.0
+        }
+      ],
+      "byType": {
+        "机票": 5352.0,
+        "火车": 5495.0,
+        "酒店": 13216.88
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 8307.92,
+          "quota": 3000.0,
+          "usage": 2.7693066666666666,
+          "records": 30
+        },
+        {
+          "month": "2月",
+          "spent": 24.0,
+          "quota": 3000.0,
+          "usage": 0.008,
+          "records": 1
+        },
+        {
+          "month": "3月",
+          "spent": 2431.0,
+          "quota": 4000.0,
+          "usage": 0.60775,
+          "records": 17
+        },
+        {
+          "month": "4月",
+          "spent": 7937.0,
+          "quota": 4000.0,
+          "usage": 1.98425,
+          "records": 20
+        },
+        {
+          "month": "5月",
+          "spent": 2514.96,
+          "quota": 4000.0,
+          "usage": 0.62874,
+          "records": 12
+        },
+        {
+          "month": "6月",
+          "spent": 2849.0,
+          "quota": 4000.0,
+          "usage": 0.71225,
+          "records": 22
+        }
+      ],
+      "labels": [
+        "累计额度超额",
+        "高于同组中位数",
+        "出行城市较多"
+      ],
+      "riskScore": 8,
+      "peerMedian": 13327.48,
+      "risk": "高"
+    },
+    {
+      "name": "高若菲",
+      "department": "光合新知-入校项目组/智课团队/客户成功部",
+      "group": "部门直属",
+      "spent": 12251.08,
+      "quota": 16000.0,
+      "usage": 0.7656925,
+      "remaining": 3748.92,
+      "records": 61,
+      "activeMonths": 4,
+      "cityCount": 9,
+      "refundRecords": 5,
+      "topCities": [
+        {
+          "name": "阜阳市",
+          "value": 6902.4
+        },
+        {
+          "name": "合肥市",
+          "value": 3286.44
+        },
+        {
+          "name": "六安市",
+          "value": 1390.0
+        },
+        {
+          "name": "景德镇市",
+          "value": 973.96
+        },
+        {
+          "name": "黄山市",
+          "value": 247.0
+        },
+        {
+          "name": "临泉县",
+          "value": 242.5
+        }
+      ],
+      "topRoutes": [
+        {
+          "name": "厦门市-合肥市",
+          "value": 492.0
+        },
+        {
+          "name": "乐平市-阜阳市",
+          "value": 343.0
+        },
+        {
+          "name": "合肥市-阜阳市",
+          "value": 304.0
+        },
+        {
+          "name": "阜阳市-黄山市",
+          "value": 247.0
+        }
+      ],
+      "byType": {
+        "机票": 0,
+        "火车": 2135.0,
+        "酒店": 10116.08
+      },
+      "monthly": [
+        {
+          "month": "1月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "2月",
+          "spent": 0.0,
+          "quota": 0.0,
+          "usage": null,
+          "records": 0
+        },
+        {
+          "month": "3月",
+          "spent": 3714.26,
+          "quota": 4000.0,
+          "usage": 0.9285650000000001,
+          "records": 14
+        },
+        {
+          "month": "4月",
+          "spent": 2025.0,
+          "quota": 4000.0,
+          "usage": 0.50625,
+          "records": 12
+        },
+        {
+          "month": "5月",
+          "spent": 2016.22,
+          "quota": 4000.0,
+          "usage": 0.504055,
+          "records": 14
+        },
+        {
+          "month": "6月",
+          "spent": 4495.6,
+          "quota": 4000.0,
+          "usage": 1.1239000000000001,
+          "records": 21
+        }
+      ],
+      "labels": [
+        "退款/退票记录较多",
+        "出行城市较多"
+      ],
+      "riskScore": 2,
+      "peerMedian": 13327.48,
+      "risk": "低"
+    }
+  ]
+}

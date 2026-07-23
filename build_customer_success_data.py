@@ -232,6 +232,9 @@ for group in sorted({person["group"] for person in people}):
 
 total_spent = sum(person["spent"] for person in people)
 total_quota = sum(person["quota"] for person in people)
+overrun_total = sum(max(0, -person["remaining"]) for person in people)
+unused_total = sum(max(0, person["remaining"]) for person in people)
+people_by_spend = sorted(people, key=lambda person: person["spent"], reverse=True)
 type_totals = {
     kind: round(sum(person["byType"][kind] for person in people), 2)
     for kind in ("机票", "火车", "酒店")
@@ -263,6 +266,18 @@ data = {
         "overPeople": sum(
             person["usage"] is not None and person["usage"] > 1
             for person in people
+        ),
+        "overrunTotal": round(overrun_total, 2),
+        "unusedTotal": round(unused_total, 2),
+        "top5Share": (
+            sum(person["spent"] for person in people_by_spend[:5]) / total_spent
+            if total_spent
+            else 0
+        ),
+        "top10Share": (
+            sum(person["spent"] for person in people_by_spend[:10]) / total_spent
+            if total_spent
+            else 0
         ),
         "typeTotals": type_totals,
     },

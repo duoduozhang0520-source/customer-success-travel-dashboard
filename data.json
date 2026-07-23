@@ -17,6 +17,10 @@
     "cities": 44,
     "warningPeople": 13,
     "overPeople": 7,
+    "overrunTotal": 43815.32,
+    "unusedTotal": 89270.16,
+    "top5Share": 0.4955531097506406,
+    "top10Share": 0.7608483534409461,
     "typeTotals": {
       "机票": 88585.03,
       "火车": 66879.5,

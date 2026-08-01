@@ -11,7 +11,9 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT.parent / "source-data" / "分贝通明细全年_2026-07-23_1618.xlsx"
-MONTHS = [f"{month}月" for month in range(1, 7)]
+JULY_SOURCE = ROOT / "july_records.json"
+QUOTA_SOURCE = ROOT / "quota_records.json"
+MONTHS = [f"{month}月" for month in range(1, 8)]
 TRAVEL_TYPES = {"国内机票": "机票", "火车": "火车", "酒店": "酒店"}
 
 
@@ -27,9 +29,30 @@ def text(value) -> str:
     return str(value).strip()
 
 
+def feishu_value(value):
+    if isinstance(value, list):
+        return "".join(
+            str(item.get("text", "")) if isinstance(item, dict) else str(item)
+            for item in value
+        )
+    if isinstance(value, dict) and "value" in value:
+        return value["value"]
+    return value
+
+
+def records_frame(path: Path) -> pd.DataFrame:
+    records = json.loads(path.read_text(encoding="utf-8"))
+    return pd.DataFrame(
+        [
+            {key: feishu_value(value) for key, value in record["fields"].items()}
+            for record in records
+        ]
+    )
+
+
 def group_from_department(value: str) -> str:
     department = text(value)
-    for group in ("客户成功1组", "客户成功2组", "客户成功3组"):
+    for group in ("客户成功1组", "客户成功2组", "客户成功3组", "客户成功4组"):
         if group in department:
             return group
     return "部门直属"
@@ -43,7 +66,8 @@ def top_items(counter: Counter, limit: int) -> list[dict]:
 
 
 detail = pd.read_excel(SOURCE, sheet_name="客户成功部分贝通明细")
-quota = pd.read_excel(SOURCE, sheet_name="差旅额度")
+detail = pd.concat([detail, records_frame(JULY_SOURCE)], ignore_index=True)
+quota = records_frame(QUOTA_SOURCE)
 
 detail = detail[
     detail["月份"].isin(MONTHS) & detail["业务线"].isin(TRAVEL_TYPES)
@@ -63,7 +87,10 @@ people = []
 for name in all_people:
     rows = detail[detail["name"] == name]
     quota_row = quota_by_name.get(name)
-    if not rows.empty:
+    latest_rows = rows[rows["月份"] == MONTHS[-1]]
+    if not latest_rows.empty:
+        department = text(latest_rows["department"].mode().iloc[0])
+    elif not rows.empty:
         department = text(rows["department"].mode().iloc[0])
     elif quota_row is not None:
         department = text(quota_row["部门"])
@@ -159,11 +186,11 @@ for person in people:
         labels.append("接近个人限制额度")
         score += 3
 
-    june = person["monthly"][-1]["spent"]
+    latest_month_spent = person["monthly"][-1]["spent"]
     historical = [item["spent"] for item in person["monthly"][:-1] if item["spent"] > 0]
     historical_average = sum(historical) / len(historical) if historical else 0
-    if june >= 3000 and historical_average and june >= historical_average * 1.8:
-        labels.append("6月费用显著上升")
+    if latest_month_spent >= 3000 and historical_average and latest_month_spent >= historical_average * 1.8:
+        labels.append("7月费用显著上升")
         score += 2
 
     peer_median = group_medians[person["group"]]
@@ -255,10 +282,10 @@ all_cities = {
 
 data = {
     "generatedAt": date.today().isoformat(),
-    "period": "2026年1–6月",
+    "period": "2026年1–7月",
     "notes": {
         "expense": "企业支付净额，包含退款、退票等负向冲减",
-        "quota": "1–4月使用月度额度；5–6月按5–7月季度额度÷3折算月均额度",
+        "quota": "1–4月使用月度额度；5–7月按5–7月季度额度÷3折算月均额度",
         "coverage": "城市与路线用于描述交付出行覆盖，不代表交付结果或质量",
     },
     "summary": {

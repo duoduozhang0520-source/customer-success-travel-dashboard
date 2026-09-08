@@ -10,10 +10,9 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT.parent / "source-data" / "分贝通明细全年_2026-07-23_1618.xlsx"
-JULY_SOURCE = ROOT / "july_records.json"
+DETAIL_SOURCE = ROOT.parent / "august-feishu-records.json"
 QUOTA_SOURCE = ROOT / "quota_records.json"
-MONTHS = [f"{month}月" for month in range(1, 8)]
+MONTHS = [f"{month}月" for month in range(1, 9)]
 TRAVEL_TYPES = {"国内机票": "机票", "火车": "火车", "酒店": "酒店"}
 
 
@@ -65,12 +64,13 @@ def top_items(counter: Counter, limit: int) -> list[dict]:
     ]
 
 
-detail = pd.read_excel(SOURCE, sheet_name="客户成功部分贝通明细")
-detail = pd.concat([detail, records_frame(JULY_SOURCE)], ignore_index=True)
+detail = records_frame(DETAIL_SOURCE)
 quota = records_frame(QUOTA_SOURCE)
 
 detail = detail[
-    detail["月份"].isin(MONTHS) & detail["业务线"].isin(TRAVEL_TYPES)
+    detail["月份"].isin(MONTHS)
+    & detail["业务线"].isin(TRAVEL_TYPES)
+    & detail["预订|下单人层级部门"].astype(str).str.contains("客户成功部", na=False)
 ].copy()
 detail["amount"] = pd.to_numeric(
     detail["企业支付总金额"], errors="coerce"
@@ -99,15 +99,17 @@ for name in all_people:
     group = group_from_department(department)
 
     q2_quota = number(quota_row.get("二季度额度（5-7月）", 0)) if quota_row is not None else 0
+    q3_quota = number(quota_row.get("3季度额度（8-10月）", 0)) if quota_row is not None else 0
     monthly = []
     for month_index, month in enumerate(MONTHS, 1):
         month_rows = rows[rows["月份"] == month]
         spent = float(month_rows["amount"].sum())
-        month_quota = (
-            number(quota_row.get(f"{month_index}月差旅", 0))
-            if quota_row is not None and month_index <= 4
-            else q2_quota / 3
-        )
+        if quota_row is not None and month_index <= 4:
+            month_quota = number(quota_row.get(f"{month_index}月差旅", 0))
+        elif month_index <= 7:
+            month_quota = q2_quota / 3
+        else:
+            month_quota = q3_quota / 3
         monthly.append(
             {
                 "month": month,
@@ -190,7 +192,7 @@ for person in people:
     historical = [item["spent"] for item in person["monthly"][:-1] if item["spent"] > 0]
     historical_average = sum(historical) / len(historical) if historical else 0
     if latest_month_spent >= 3000 and historical_average and latest_month_spent >= historical_average * 1.8:
-        labels.append("7月费用显著上升")
+        labels.append("8月费用显著上升")
         score += 2
 
     peer_median = group_medians[person["group"]]
@@ -282,10 +284,10 @@ all_cities = {
 
 data = {
     "generatedAt": date.today().isoformat(),
-    "period": "2026年1–7月",
+    "period": "2026年1–8月",
     "notes": {
         "expense": "企业支付净额，包含退款、退票等负向冲减",
-        "quota": "1–4月使用月度额度；5–7月按5–7月季度额度÷3折算月均额度",
+        "quota": "1–4月使用月度额度；5–7月按二季度额度÷3折算；8月按三季度额度÷3折算",
         "coverage": "城市与路线用于描述交付出行覆盖，不代表交付结果或质量",
     },
     "summary": {

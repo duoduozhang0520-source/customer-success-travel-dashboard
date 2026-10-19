@@ -10,9 +10,11 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parent
-DETAIL_SOURCE = ROOT.parent / "august-feishu-records.json"
+HISTORY_SOURCE = ROOT / "history_records.json"
+AUGUST_SOURCE = ROOT.parent / "august-feishu-records.json"
+SEPTEMBER_SOURCE = ROOT / "september_records.json"
 QUOTA_SOURCE = ROOT / "quota_records.json"
-MONTHS = [f"{month}月" for month in range(1, 9)]
+MONTHS = [f"{month}月" for month in range(1, 10)]
 TRAVEL_TYPES = {"国内机票": "机票", "火车": "火车", "酒店": "酒店"}
 
 
@@ -64,7 +66,14 @@ def top_items(counter: Counter, limit: int) -> list[dict]:
     ]
 
 
-detail = records_frame(DETAIL_SOURCE)
+detail = pd.concat(
+    [
+        records_frame(HISTORY_SOURCE),
+        records_frame(AUGUST_SOURCE),
+        records_frame(SEPTEMBER_SOURCE),
+    ],
+    ignore_index=True,
+)
 quota = records_frame(QUOTA_SOURCE)
 
 detail = detail[
@@ -192,7 +201,7 @@ for person in people:
     historical = [item["spent"] for item in person["monthly"][:-1] if item["spent"] > 0]
     historical_average = sum(historical) / len(historical) if historical else 0
     if latest_month_spent >= 3000 and historical_average and latest_month_spent >= historical_average * 1.8:
-        labels.append("8月费用显著上升")
+        labels.append("9月费用显著上升")
         score += 2
 
     peer_median = group_medians[person["group"]]
@@ -284,10 +293,10 @@ all_cities = {
 
 data = {
     "generatedAt": date.today().isoformat(),
-    "period": "2026年1–8月",
+    "period": "2026年1–9月",
     "notes": {
         "expense": "企业支付净额，包含退款、退票等负向冲减",
-        "quota": "1–4月使用月度额度；5–7月按二季度额度÷3折算；8月按三季度额度÷3折算",
+        "quota": "1–4月使用月度额度；5–7月按二季度额度÷3折算；8–9月按三季度额度÷3折算",
         "coverage": "城市与路线用于描述交付出行覆盖，不代表交付结果或质量",
     },
     "summary": {
